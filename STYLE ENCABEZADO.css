@@ -1,0 +1,173 @@
+@charset "utf-8";
+.Cuerpo .cabecera {
+    width: 100%;
+    clear: both;
+    background-image: url(IMAGENES/fondo.jpg), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: url(IMAGENES/fondo.jpg), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: url(IMAGENES/fondo.jpg), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: url(IMAGENES/fondo.jpg), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-position: 15% 15%;
+    background-size: 100% auto;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 24px;
+}
+.Cuerpo .cabecera p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-transition: all 5s 1s;
+    -o-transition: all 5s 1s;
+    transition: all 5s 1s;
+    font-style: italic;
+    font-weight: bolder;
+}
+.Cuerpo .cabecera .letrados {
+    color: rgba(37,91,111,1);
+    width: 100%;
+    height: 60px;
+    clear: both;
+    text-align: center;
+    list-style-type: georgian;
+    border-top-style: hidden;
+    border-top-color: rgba(14,68,94,0.95);
+    font-size: 24px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: blink;
+    list-style-position: outside;
+    font-weight: 700;
+    font-variant: small-caps;
+    font-style: normal;
+    opacity: 1;
+}
+.cabecera .letrados p {
+    color: rgba(0,0,0,1);
+    text-align: center;
+    list-style-type: hebrew;
+    white-space: nowrap;
+    font-size: 18px;
+    font-style: italic;
+    line-height: normal;
+    font-variant: small-caps;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: normal;
+}
+.cabecera .RAZON p {
+    height: 70px;
+    font-size: 72px;
+    font-weight: bolder;
+    color: rgba(115,18,42,1.00);
+    font-style: normal;
+}
+
+
+
+
+
+.Cuerpo .cabecera .logo {
+    background-color: rgba(255,255,255,0.76);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-width: 25%;
+    width: 23%;
+    height: 70px;
+    float: left;
+    border-radius: 10px;
+    color: rgba(255,255,255,1.00);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.cabecera .logo img {
+    border-radius: 10px;
+    background-repeat: repeat-y;
+    top: -5px;
+    left: -3px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.cabecera .menu p {
+    overflow-x: visible;
+    margin-left: 24px;
+    clear: none;
+    text-align: left;
+    float: right;
+    font-style: normal;
+    text-shadow: 0px 0px rgba(255,255,255,1.00);
+    list-style-type: lower-roman;
+    border-radius: 10px;
+    margin-top: 12px;
+    background-color: rgba(255,255,255,0.00);
+    color: rgba(255,255,255,1.00);
+    overflow-y: visible;
+    margin-right: 13px;
+
+}
+ul li img {
+    clear: right;
+    float: right;
+
+}
+
+
+
+
+.Cuerpo .cabecera .menu {
+    list-style-image: url(index.html);
+    background-attachment: fixed;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    list-style-type: decimal;
+    text-align: left;
+    margin-left: 0px;
+    clear: right;
+    overflow-x: hidden;
+    color: rgba(255,255,255,1.00);
+    background-color: rgba(123,3,33,1.00);
+    width: 70%;
+    height: 70px;
+    border-radius: 10px;
+    padding-top: 11px;
+    float: left;
+    overflow-y: hidden;
+    opacity: 1;
+
+
+
+}
+
+
+.Cuerpo .cabecera .CONTACTO {
+    width: 80.29%;
+    height: 90px;
+    min-width: 0px;
+    background-color: rgba(255,255,255,1.00);
+    color: rgba(0,0,0,1.00);
+    text-align: justify;
+    text-decoration: none;
+    margin-left: 0px;
+    padding-left: 51px;
+    border-radius: 10px;
+    clear: right;
+    float: left;
+}
+.Cuerpo .piedepagina {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    color: rgba(247,247,247,1.00);
+    background-color: rgba(5,116,150,1.00);
+    height: 50px;
+    padding-top: 9px;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-weight: 100;
+}
+.Contenido p .Campos.de.accion {
+    width: 100%;
+    clear: left;
+}
